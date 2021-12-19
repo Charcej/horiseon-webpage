@@ -4,13 +4,19 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- title (I changed the title from 'website' to 'Horiseon') -->
     <title>Horiseon</title>
 </head>
 
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+    <!-- navigation (I made the branding in header clickable to take back to homepage and implemented <header> and <nav> for greater accessibility.) -->
+    <header class="header">
+        <h1>
+           <a href="/">
+            Hori<span class="seo">seo</span>n
+            </a>
+        </h1>
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,10 +28,12 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
+
     <div class="hero"></div>
     <div class="content">
+        <!-- I fixed the link immediately below by adding missing id -->
         <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -71,12 +79,14 @@
             </p>
         </div>
     </div>
-    <div class="footer">
+    
+    <!-- I changed <div> to <footer> here for accessibility, nothing to change in css -->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
