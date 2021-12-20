@@ -10,6 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header banner */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,16 +18,19 @@ body {
     color: #ffffff;
 }
 
+/* Brand 'Horiseon' in upper top left of page*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* 'seo' span part of brand name that gets its own color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/* I changed div to nav in next 3 sections for greater accessibility */
+/* Navigation headings (three) that link to sections of page */
+/* Changed div to nav in next 3 header parts for greater accessibility */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,24 +39,29 @@ body {
     font-size: 20px;
 }
 
+/* So that the navigation links are not annouced as a list */
 .header nav ul {
     list-style-type: none;
 }
 
+/* So that the naviagtion links are in the same line as the brand name */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*  For the naviagtion links so there is no underlining */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* For the font size of the paragraph content */
 p {
     font-size: 16px;
 }
 
+/* For all class attributes in the hero section */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,22 +71,26 @@ p {
     background-position: center;
 }
 
+/* For the parts in the hero section that need to float to the left of the image */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*For the parts in the hero section where text needs to float to the right of the image */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*For all of the first three rows */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* For all of the vertical column on the right  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,54 +102,64 @@ p {
     background-color: #2589bd;
 }
 
+/* Top part of vertical column on right */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Middle part of vertical column on right */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Bottom part of vertical column on right */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Heading for top part of vertical column */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Heading for middle part of vertical column */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Heading for bottom part of vertical column */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Image for top part of vertical column */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Image for middle part of vertical column */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Image for bottom part of vertical column */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Search Engine Optimization box */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -146,6 +169,7 @@ p {
     color: #ffffff;
 }
 
+/* Online Reputation Management Box */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -155,6 +179,7 @@ p {
     color: #ffffff;
 }
 
+/* Social Media Marketing Box */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -164,33 +189,40 @@ p {
     color: #ffffff;
 }
 
+/* Search Engine Optimization image specs */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* Online Repuation Management image specs */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* Social Media Marketing image specs */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Heading in Search Optimization box */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Heading in Online Reputation Management box */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Heading in Social Media Marketing box */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Footer banner */
 .footer {
     padding: 30px;
     clear: both;
@@ -198,6 +230,7 @@ p {
     text-align: center;
 }
 
+/* Main font in footer */
 .footer h2 {
     font-size: 20px;
 }
