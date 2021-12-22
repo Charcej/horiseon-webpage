@@ -5,12 +5,12 @@
     margin: 0;
 }
 
-/* Entire page color */
+/* Entire body background color */
 body {
     background-color: #d9dcd6;
 }
 
-/* Header banner */
+/* Header banner color, padding, font family */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -29,8 +29,8 @@ body {
     color: #d9dcd6;
 }
 
-/* Navigation headings (three) that link to sections of page */
-/* Changed div to nav in next 3 header parts for greater accessibility */
+/* Navigation tags(three) that link to sections of page */
+/* Changed div to nav in next 3 header CSS rules for greater accessibility on webpage */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -83,14 +83,14 @@ p {
     margin-left: 25px;
 }
 
-/*For all of the first three rows */
+/*For all of the content first three rows */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* For all of the vertical column on the right  */
+/* For all of the content in the vertical column on the right - the sidebar  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,65 +102,31 @@ p {
     background-color: #2589bd;
 }
 
-/* Top part of vertical column on right */
-.benefit-lead {
+/* Top, middle, bottom part of the sidebar */
+/* I condensed three rules into one for efficiency */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Middle part of vertical column on right */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Bottom part of vertical column on right */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Heading for top part of vertical column */
-.benefit-lead h3 {
+/* Heading for top, middle, bottom part of the sidebar */
+/* I condensed these three rules into one as well */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Heading for middle part of vertical column */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Heading for bottom part of vertical column */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Image for top part of vertical column */
-.benefit-lead img {
+/* Image for top, middle, bottom part of the sidebar */
+/* I condensed these three rules into one too */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Image for middle part of vertical column */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Image for bottom part of vertical column */
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Search Engine Optimization box */
-.search-engine-optimization {
+/* Search Engine Optimization, Online Repulation Management, Social Media Marketing box */
+/* I condensed these three rules into one */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -169,59 +135,18 @@ p {
     color: #ffffff;
 }
 
-/* Online Reputation Management Box */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Social Media Marketing Box */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Search Engine Optimization image specs */
-.search-engine-optimization img {
+/* Search Engine Optimization, Online Reputation Management, Social Media Marketing image specs */
+/* I condensed these three rules into one */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-/* Online Repuation Management image specs */
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/* Social Media Marketing image specs */
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* Heading in Search Optimization box */
+/* Heading in Search Optimization, Online Reputation Management, Social Media Marketing box */
+/* I condensed these three rules into one */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/* Heading in Online Reputation Management box */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Heading in Social Media Marketing box */
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 /* Footer banner */
 .footer {
     padding: 30px;
