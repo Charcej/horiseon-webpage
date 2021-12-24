@@ -23,6 +23,10 @@ I did this by:
 ## Website
 https://charcej.github.io/horiseon-webpage/
 
+## Screenshot of Website
+
+<img width="1191" alt="Screen Shot 2021-12-24 at 9 37 44 AM" src="https://user-images.githubusercontent.com/94859458/147360275-f2beac58-0c27-4b5d-b17b-695f53ace880.png">
+
 ## Contribution
 Made with ❤️ by Charles Johnston
 
